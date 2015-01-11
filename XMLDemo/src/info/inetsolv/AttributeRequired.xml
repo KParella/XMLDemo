@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<students xmlns="http://www.hello.org/AttributeRequired/"
+xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" 
+xs:schemaLocation="http://www.hello.org/AttributeRequired/ AttributeRequired.xsd">
+
+
+<student id="1">
+<name>kuladeep</name>
+
+</student>
+
+
+
+</students>
+
+
+

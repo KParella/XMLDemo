@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+ targetNamespace="http://www.hello.info/hello/" 
+ xmlns="http://www.hello.info/hello/" 
+ elementFormDefault="qualified">
+<xs:element name="institute">
+<xs:complexType>
+<xs:all>
+<xs:element name="sub" type="xs:string"/>
+<xs:element name="facult" type="xs:string"/>
+<xs:element name="time" type="xs:string"/>
+</xs:all>
+</xs:complexType>
+</xs:element>
+</xs:schema>

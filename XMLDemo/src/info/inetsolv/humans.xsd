@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+targetNamespace="http://www.myown.org/humans/" 
+xmlns="http://www.myown.org/humans/"
+elementFormDefault="qualified">
+
+<xs:element name="kuladeep">
+<xs:complexType>
+<xs:all>
+<xs:element name="age" type="xs:string"/>
+<xs:element name="height" type="xs:string"/>
+<xs:element name="weight" type="xs:string"/>
+</xs:all>
+</xs:complexType>
+</xs:element>
+</xs:schema>
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testtag xmlns="http://www.inetsolv.info/Test"
+xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+xs:schemaLocation="http://www.inetsolv.info/Test Test.xsd">
+
+<tag1>hello</tag1>
+<tag2>hru</tag2>
+
+</testtag>

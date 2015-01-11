@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<student xmlns="http://www.hello.org/PatternRestriction/" 
+xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+xs:schemaLocation="http://www.hello.org/PatternRestriction/ PatternRestriction.xsd">
+
+<firstname>akldkf</firstname>
+<lastname>789kulad</lastname>
+
+</student> 

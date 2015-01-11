@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<institute xmlns="http://www.hello.info/hello/"
+xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+xs:schemaLocation="http://www.hello.info/hello/ hello.xsd">
+<facult>Tom</facult>
+<sub>Java</sub>
+
+<time>8</time>
+</institute>

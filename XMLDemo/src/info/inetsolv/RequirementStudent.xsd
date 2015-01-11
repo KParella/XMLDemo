@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+ targetNamespace="http://www.hello.org/RequirementStudent/" 
+ xmlns="http://www.hello.org/RequirementStudent/"
+ elementFormDefault="qualified">
+ 
+ <xs:element name="college">
+ <xs:complexType>
+ <xs:sequence>
+ <xs:element name="student" minOccurs="1" maxOccurs="10" >
+ <xs:complexType>
+ <xs:sequence>
+ 
+ <xs:element name="rollno">
+ <xs:simpleType>
+ <xs:restriction base="xs:integer">
+ <xs:minInclusive value="1"></xs:minInclusive>
+ <xs:maxInclusive value="500"></xs:maxInclusive>
+ </xs:restriction>
+ </xs:simpleType>
+ </xs:element>
+ 
+ <xs:element name="name">
+ <xs:simpleType>
+ <xs:restriction base="xs:string">
+ <xs:minLength value="5"/>
+ <xs:maxLength value="15"/>
+ <xs:pattern value="([a-zA-Z])*"></xs:pattern>
+ </xs:restriction>
+ </xs:simpleType>
+ </xs:element>
+ 
+ <xs:element name="mno" minOccurs="3" maxOccurs="3">
+ <xs:simpleType>
+ <xs:restriction base="xs:integer">
+<xs:pattern value="[0-9]{10}"></xs:pattern>
+ </xs:restriction>
+ </xs:simpleType>
+ </xs:element>
+ 
+ <xs:element name="address" minOccurs="0">
+ <xs:complexType>
+ <xs:sequence>
+ <xs:element name="hno" type="xs:string" minOccurs="1" maxOccurs="1"/>
+ <xs:element name="colony" type="xs:string" minOccurs="1" maxOccurs="1"/> 
+ <xs:element name="city" type="xs:string" minOccurs="1" maxOccurs="1"/>
+ </xs:sequence>
+ <xs:attribute name="state" type="xs:string" fixed="Delhi"/>
+ </xs:complexType>
+ </xs:element>
+ 
+ </xs:sequence>
+ 
+ <xs:attribute name="type" type="xs:string" use="required"/>
+ <xs:attribute name="course">
+ <xs:simpleType>
+ <xs:restriction base="xs:string">
+ <xs:enumeration value="xml"/>
+  <xs:enumeration value="html"/>
+   <xs:enumeration value="java"/>
+    <xs:enumeration value="Oracle"/>
+     <xs:enumeration value="jee"/>
+ </xs:restriction>
+ </xs:simpleType>
+ </xs:attribute> 
+ </xs:complexType>
+ </xs:element>
+ 
+ </xs:sequence>
+ </xs:complexType>
+ </xs:element>
+ 
+ 
+ 
+ 
+</xs:schema>

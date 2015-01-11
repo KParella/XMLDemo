@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<college xmlns="http://www.hello.org/RequirementStudent/" 
+xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+xs:schemaLocation="http://www.hello.org/RequirementStudent/ RequirementStudent.xsd" >
+
+<student type="regular">
+<rollno>1</rollno>
+<name>kuladeep</name>
+<mno>7799365715</mno>
+<mno>9849388192</mno>
+<mno>9985993433</mno>
+<address>
+<hno>1</hno>
+<colony>Ramannapet</colony>
+<city>Gnt</city>
+</address>
+</student>
+
+<student type="Distance">
+<rollno>2</rollno>
+<name>Sandeep</name>
+<mno>6666666666</mno>
+<mno>7777777777</mno>
+<mno>5555555555</mno>
+<address>
+<hno>2</hno>
+<colony>apet</colony>
+<city>Hyd</city>
+</address>
+</student>
+
+
+
+
+</college>

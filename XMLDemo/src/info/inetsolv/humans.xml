@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kuladeep xmlns="http://www.myown.org/humans/" 
+xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+xs:schemaLocation="http://www.myown.org/humans/ humans.xsd">
+<age>28</age>
+<height>7</height>
+<weight>67</weight>
+</kuladeep> 

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<employee xmlns="http://www.inetsolv.info/tags/"
+xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+xs:schemaLocation="http://www.inetsolv.info/tags/ employees.xsd">
+
+
+<firstname></firstname>
+<lastname></lastname>
+
+</employee>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+ targetNamespace="http://www.hello.org/EnumarationRestriction/" 
+ xmlns="http://www.hello.org/EnumarationRestriction/"
+ elementFormDefault="qualified">
+ <xs:element name="student" type="mytype"/>
+ 
+ <xs:complexType name="mytype">
+ <xs:sequence>
+ <xs:element name="sno">
+ <xs:simpleType>
+ <xs:restriction base="xs:int">
+ <xs:enumeration value="10"/>
+ <xs:enumeration value="20"/>
+ <xs:enumeration value="30"/>
+ </xs:restriction>
+ </xs:simpleType>
+ </xs:element>
+ 
+ 
+ </xs:sequence>
+ </xs:complexType>
+ 
+ 
+ 
+ 
+</xs:schema>
